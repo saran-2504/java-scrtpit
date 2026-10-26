@@ -6,7 +6,7 @@ age = 24
 var ismarried = true
 
 
-
+console.log("welcome")
 console.log( typeof(age) )
 console.log( typeof(name) )
 console.log( typeof(email) )
