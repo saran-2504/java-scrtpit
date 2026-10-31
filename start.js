@@ -101,18 +101,99 @@
 // for if-else and else-if we can use another operator is switch operator while using swtich we need to break keyword reason (if will read line by line )
 // if data is invalid we can use default keyword
 
-let car = "hvbjk"
+// let car = "honda"
 
-switch(car ){
-    case "honda":
-        console.log("This my fav car")
-        break
-    case "maruthi":
-        console.log("This not my fav car")
-        break
-    case "audi":
-        console.log("This is an ulitimate car")
-        break
-    default:
-        console.log("This is invalid data")
-}
+// switch(car ){
+//     case "honda":
+//         console.log("This my fav car")
+//         break
+//     case "maruthi":
+//         console.log("This not my fav car")
+//         break
+//     case "audi":
+//         console.log("This is an ulitimate car")
+//         break
+//     default:
+//         console.log("This is invalid data")
+// }
+
+    //  logicall operator
+//  && and logical operator
+
+// let a = 10
+// let b = 20 
+// let c = 10 
+
+// console.log(10 < 20) && ( c == a ) --true
+// console.log(20 < 10) && ( c == a ) -- false
+// console.log(a == c) && (20 < 10 ) -- true
+// console.log(a == b) && (c == a) -- false
+
+// or || condition
+
+
+// console.log(20 < 30) || (30 == 30) -- true
+// console.log(30 < 20 ) || (30 == 30) -- false
+// console.log(20 == 30 ) || (30 == 20) --false
+// console.log(20 < 30 ) || (30 == 30 ) -- true
+
+
+// ..................................! is used for nptt\ logical operator -- it reverse the bollen value ( true means false and false means true)
+
+// console.log(! 20 == 30 )
+
+// .................................arrays concept
+
+// let car = ["maruthi", "audi", "bmw", "jeep"]
+
+// console.log(car[3])
+// console.log(car[2])
+
+// .......................................for accesing the elememnts one by one for that we van use for loop
+
+// let bike = ("hunter","mt-15","r1-5","yamaha","raoyalenfield")
+
+// for(let i = 0; i < 5; i++ ){
+//     console.log(bike[i])
+// }
+
+// ..............................................we can use .length insted of mentioning the Number
+
+// let fruit = ["apple","orange","pineapple","mango","guva"]
+
+// for(let i = 0; i < fruit.length; i++)
+// {
+//     console.log(fruit[i])
+// }
+
+// ......................................by using for of we can make it simpler 
+
+// let fruit = ["apple","orange","pineapple","mango","guva"]
+// for (let i of fruit){
+//     console.log(i)
+// }
+
+// .....this the real time example for the insta coments
+
+// let insta = [ ]
+
+// for (let i = 0; i < n; i ++){
+
+//     let box = prompt("Enter the conent ! ")
+//     insta.push(box)
+// }
+// for(let i of insta){
+//     console.log(i)
+// }
+
+
+
+// ..... to mention any relation we can use the objects...
+
+// let fitness = {
+//     steps:1000,
+//     heigh:5.6,
+//     weight:60
+// }
+// console.log(fitness)
+// console.log(fitness.heigh)
